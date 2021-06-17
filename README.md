@@ -1,3 +1,3 @@
 # Strapi application
 
-A quick description of your strapi application
+Api utilizada na Landing Page da Games Flix
