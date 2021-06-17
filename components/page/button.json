@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "name": "button",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "labelButton": {
+      "type": "string",
+      "default": "label do botão",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#0275d8",
+      "required": true
+    },
+    "fontColor": {
+      "type": "string",
+      "default": "#fff",
+      "required": true
+    }
+  }
+}

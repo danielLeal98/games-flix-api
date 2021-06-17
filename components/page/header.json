@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_headers",
+  "info": {
+    "name": "header",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Title Inicial",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "default": "Sua descrição",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
