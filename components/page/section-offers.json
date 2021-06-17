@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_section_offers",
+  "info": {
+    "name": "sectionOffers",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "offersItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.offers-items",
+      "required": true
+    }
+  }
+}

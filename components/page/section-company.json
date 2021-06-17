@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_section_companies",
+  "info": {
+    "name": "sectionCompany",
+    "icon": "suitcase-rolling"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "companyLogo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.company-logo"
+    }
+  }
+}

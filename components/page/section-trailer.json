@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_section_trailers",
+  "info": {
+    "name": "sectionTrailer",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "trailers": {
+      "collection": "trailer"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Titulo da Section"
+    }
+  }
+}

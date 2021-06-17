@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_section_cards",
+  "info": {
+    "name": "sectionCards",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.cards",
+      "required": true,
+      "min": 2
+    }
+  }
+}

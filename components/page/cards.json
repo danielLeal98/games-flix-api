@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_cards",
+  "info": {
+    "name": "cards",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "titulo do card"
+    },
+    "textFooter": {
+      "type": "text",
+      "default": "texto do rodapé"
+    },
+    "imageCard": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext",
+      "default": "descrição do card",
+      "required": true
+    }
+  }
+}

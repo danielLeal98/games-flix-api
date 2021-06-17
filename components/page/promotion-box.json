@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_page_promotion_boxes",
+  "info": {
+    "name": "promotionBox",
+    "icon": "id-card-alt"
+  },
+  "options": {},
+  "attributes": {
+    "imageCard": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext",
+      "default": "descrição do card",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "titulo do card",
+      "required": true
+    },
+    "totalPrice": {
+      "type": "decimal"
+    },
+    "buttonPrice": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}

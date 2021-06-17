@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trailers",
+  "info": {
+    "name": "trailer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "thumbnail": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "headline": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
