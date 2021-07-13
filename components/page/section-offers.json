@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_offers",
   "info": {
     "name": "sectionOffers",
-    "icon": "list-ul"
+    "icon": "list-ul",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,7 @@
       "type": "text",
       "required": true
     },
-    "offersItems": {
+    "offerItems": {
       "type": "component",
       "repeatable": true,
       "component": "page.offers-items",

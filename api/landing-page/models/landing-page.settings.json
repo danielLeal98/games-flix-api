@@ -70,13 +70,6 @@
       "repeatable": false,
       "component": "page.section-faq",
       "required": true
-    },
-    "questions": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.questions",
-      "required": true,
-      "min": 2
     }
   }
 }

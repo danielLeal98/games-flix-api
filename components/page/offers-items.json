@@ -1,8 +1,9 @@
 {
   "collectionName": "components_page_offers_items",
   "info": {
-    "name": "offersItems",
-    "icon": "list-ol"
+    "name": "offerItems",
+    "icon": "list-ol",
+    "description": ""
   },
   "options": {},
   "attributes": {
